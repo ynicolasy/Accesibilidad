@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Atk';
+  src: url('./../fonts/Atkinson-Hyperlegible-Regular-102.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Helvetica', Verdana, Tahoma, Arial, sans-serif;
+}
+
+.bordes {
+  border: 2px solid #000;
+}
+
+.fondo-footer {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(1,1,24,1) 35%, rgba(0,8,14,1) 100%);
+}
+
+.atk-font {
+  font-family: 'Atk', Helvetica, Verdana, Tahoma, Arial, sans-serif;
+}
+
+.verda-font {
+  font-family: 'Verdana', Atk, Helvetica, Tahoma, Arial, sans-serif;
+}
+
+.tahoma-font {
+  font-family: 'Tahoma', Atk, Helvetica, Verdana, Arial, sans-serif;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
